@@ -7,6 +7,9 @@ A Collection of Programming Challenges
  - Specialized topics
   - SQL
   - AI
+  - Web
+  - Messaging
+  - IO and Networking  
 
 By Topics:
  - Dynamic programming
