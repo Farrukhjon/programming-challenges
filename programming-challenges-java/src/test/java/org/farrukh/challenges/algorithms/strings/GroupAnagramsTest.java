@@ -4,23 +4,24 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class GroupAnagramTest {
+public class GroupAnagramsTest {
 
-    private GroupAnagramSolution1 sut;
+    private GroupAnagramsSolution1 sut;
 
     @Before
     public void setUp() throws Exception {
-        sut = new GroupAnagramSolution1();
+        sut = new GroupAnagramsSolution1();
     }
 
     @Test
     public void testGroupingAnagram() {
         String[] words = {"cat", "act", "book", "koob", "Aziza"};
-        Set<List> groupedAnagrams = sut.groupAnagram(words);
+        Collection<List<String>> groupedAnagrams = sut.groupAnagrams(words);
 
         Set<List> expectedAGroup = createExpectedAnagramGroup();
     }

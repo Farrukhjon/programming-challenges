@@ -23,20 +23,16 @@ public class IsArraySubsetOfAnotherArraySolution1 implements IsArraySubsetOfAnot
     }
 
     public static void main(String[] args) {
+        IsArraySubsetOfAnotherArraySolution1 subsetOfAnotherArraySolution1 = new IsArraySubsetOfAnotherArraySolution1();
 
         int[] array1 = {0, 3, 4, 1, 2, 5};
         int[] array2 = {0, 1};
-
-        boolean isSubset = new IsArraySubsetOfAnotherArraySolution1().isSubset(array1, array2);
-
+        boolean isSubset = subsetOfAnotherArraySolution1.isSubset(array1, array2);
         assert isSubset;
-
 
         int[] arr1 = {0, 3, 4, 1, 2, 5};
         int[] arr2 = {10, 15};
-
-        boolean isSubset2 = new IsArraySubsetOfAnotherArraySolution1().isSubset(arr1, arr2);
-
+        boolean isSubset2 = subsetOfAnotherArraySolution1.isSubset(arr1, arr2);
         assert !isSubset2;
 
     }
