@@ -1,5 +1,7 @@
 package org.farrukh.challenges.algorithms.strings;
 
+import org.farrukh.challenges.strings.Uniqueness;
+import org.farrukh.challenges.strings.UniquenessSolution1;
 import org.junit.Assert;
 import org.junit.Test;
 
