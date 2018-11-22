@@ -1,6 +1,6 @@
 package org.farrukh.challenges.algorithms.strings;
 
-import org.farrukh.challenges.strings.GroupAnagramsSolution1;
+import org.farrukh.challenges.data_structure.strings.GroupAnagramsSolution1;
 import org.junit.Before;
 import org.junit.Test;
 
