@@ -1,4 +1,4 @@
-package org.farrukh.challenges.coding;
+package org.farrukh.challenges.coding_bit_manipulation;
 
 import static java.lang.System.out;
 
